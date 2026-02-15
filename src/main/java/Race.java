@@ -4,7 +4,7 @@ public class Race {
 
         int m = 0;
         for (int i = 1; i <= (cars.length - 1); i++) {
-            if (cars[i].velocity > cars[i - 1].velocity) {
+            if (cars[i].velocity > cars[m].velocity) {
                 m = i;
             }
         }

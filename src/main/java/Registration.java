@@ -20,7 +20,7 @@ public class Registration {
                     scanner.next();
                 }
                 vel = scanner.nextInt();
-                if (vel <= 0 || vel >= 250) {
+                if (vel <= 0 || vel > 250) {
                     System.out.println("Скорость за пределами возможных значений, повторите попытку");
                 }
             }
